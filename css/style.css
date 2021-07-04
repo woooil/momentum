@@ -128,3 +128,17 @@ body {
     font-style: italic;
     text-decoration: none;
 }
+
+@media (max-width: 600px) {
+    #clock{
+        font-size: 6rem;
+    }
+
+    #login-form{
+        height: 2rem;
+    }
+
+    #login-form input, #greeting-ms{
+        font-size: 2rem;
+    }
+}
