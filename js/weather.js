@@ -9,10 +9,12 @@ function saveWeather(newWeather){
 }
 
 function paintWeather(newWeather) {
-    const city = document.querySelector("#weather span:first-child");
-    const weather = document.querySelector("#weather span:last-child");
+    const city = document.querySelector("#weather div:first-child");
+    const weather = document.querySelector("#weather div:nth-child(2)");
+    const temp = document.querySelector("#weather div:last-child");
     city.innerText = newWeather.city;
-    weather.innerText = newWeather.weather + " / " + newWeather.temp + "°C";
+    weather.innerText = newWeather.weather;
+    temp.innerText = newWeather.temp + "°C";
 }
 
 function onGeoOk(position) {
