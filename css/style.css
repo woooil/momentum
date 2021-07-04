@@ -3,7 +3,7 @@
 }
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     margin: 0;
     border: 0;
@@ -87,10 +87,15 @@ body {
 }
 
 #todo-list button {
+    position: relative;
+    bottom: 0.2rem;
+    width: 1.2rem;
+    height: 1.2rem;
     margin-left: 0.5rem;
     border-radius: 10%;
     background-color: white;
     padding: 0.2rem;
+    color:gray;
 }
 
 #quote {
@@ -100,14 +105,26 @@ body {
     text-align: center;
 }
 
+#quote div {
+    margin-top: 0.2rem;
+}
+
 #weather {
     position: absolute;
     top: 0.5rem;
     right: 0.5rem;
     text-align: right;
-    font-size: 1.2rem;
 }
 
 #weather div {
     margin-bottom: 0.2rem;
+}
+
+#about {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: none;
 }

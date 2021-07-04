@@ -33,7 +33,7 @@ function onGeoOk(position) {
 }
 
 function onGeoError() {
-    alert("Can't find you. No weather for you.")
+    alert("사용자의 위치를 찾을 수 없습니다.")
 }
 
 const savedWeather = localStorage.getItem(WEATHER_KEY);
