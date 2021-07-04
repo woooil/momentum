@@ -26,6 +26,34 @@
 }
 
 #greeting {
+    display: flex;
+    justify-content: center;
+}
+
+#login-form {
+    width: 12rem;
+    height: 3rem;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#login-form input {
+    height: inherit;
+    text-align: right;
+    width: inherit;
+    font-size: 3rem;
+    background-color: transparent;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#greeting-ms {
+    height: 3rem;
     text-align: center;
     font-size: 3rem;
+    border: 0;
+    padding: 0;
+    margin: 0;
 }
