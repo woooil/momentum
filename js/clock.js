@@ -11,7 +11,7 @@ function getClock() {
     } else {
         col = " ";
     }
-    clock.innerText = hours + col + minutes;
+    clock.innerHTML = hours + col + minutes;
 }
 
 getClock();
